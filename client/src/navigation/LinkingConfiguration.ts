@@ -4,27 +4,27 @@
  * https://reactnavigation.org/docs/configuring-links
  */
 
-import * as Linking from "expo-linking";
+import * as Linking from 'expo-linking'
 
 export default {
-  prefixes: [Linking.makeUrl("/")],
+  prefixes: [Linking.makeUrl('/')],
   config: {
     screens: {
       Root: {
         screens: {
           Home: {
             screens: {
-              HomeScreen: "Home",
+              HomeScreen: 'Home',
             },
           },
           Profile: {
             screens: {
-              ProfileScreen: "profile",
+              ProfileScreen: 'profile',
             },
           },
         },
       },
-      NotFound: "*",
+      NotFound: '*',
     },
   },
-};
+}
