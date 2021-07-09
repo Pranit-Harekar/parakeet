@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+build/
+.env
+coverage/
+.vscode/
+yarn.lock
+
+# macOS
+.DS_Store
